@@ -7,7 +7,7 @@ import TodoList from './components/Todo'
 function ToDoApp() {
   return (
     <div className='flex min-h-screen justify-center items-center bg-primary py-10'>
-      <div className='w-[432px] myclass'>
+      <div className='w-[432px]'>
         <AddTask />
         <TodoList />
         <DoneList />
