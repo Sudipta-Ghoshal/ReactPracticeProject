@@ -1,6 +1,7 @@
 
 import './App.css'
 import AddTask from './components/AddTask'
+import DoneList from './components/Done'
 import TodoList from './components/Todo'
 
 function ToDoApp() {
@@ -9,7 +10,7 @@ function ToDoApp() {
       <div className='w-[432px]'>
         <AddTask />
         <TodoList />
-        {/* <DoneList /> */}
+        <DoneList />
       </div>
     </div>
   )
